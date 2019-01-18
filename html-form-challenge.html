@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>HTML Form Challenge</title>
+</head>
+<body>
+    <h1>Form Biodata</h1>
+    <form action="/action_page.php">
+    Nama sekolah    :
+    <input type="text" name="sekolah" value="smk" readonly>
+    *read only<br> <br>
+    
+    Nama sekolah    :
+    <input type="text" name="sekolah" value="smk" disabled>
+    *disable<br> <br>
+
+    Nama        :
+    <input type="text" name="nama" required>
+    *harus diisi<br> <br>
+   
+    No. Telepon :
+    <input type="number" name="telepon"> <br> <br>
+    
+    Email       :
+    <input type="email" name="email"> <br> <br>
+   
+    Password    :
+    <input type="password" name="password"> <br> <br>
+    
+    Deskripsi   :
+    <textarea name="deskripsi" rows="10" cols="30"> 
+    Tulis deskripsi disini
+    </textarea> <br> <br>
+    
+    Kelas       :
+    <select name="kelas">
+        <option value="x" selected>X</option>
+        <option value="xi">XI</option>
+        <option value="xii">XII</option>
+    </select> <br> <br>
+
+    Jenis Kelamin   :
+    <input type="radio" name="jk" value="l" checked>Laki-laki
+    <input type="radio" name="jk" value="p">Perempuan <br> <br>
+
+    <input type="submit" value="Submit">
+    <input type="reset">
+
+    </form>
+</body>
+</html>
